@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Annotaitions.run1()[pri:1, instance:com.test.basic.Annotaitions@42d80b78]" name="run1" class="com.test.basic.Annotaitions"/>
+        <method signature="Annotaitions.run2()[pri:2, instance:com.test.basic.Annotaitions@42d80b78]" name="run2" class="com.test.basic.Annotaitions"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="40" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+      <class name="com.test.basic.Annotaitions">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@42d80b78]" name="setUp" is-config="true" duration-ms="16" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="run1()[pri:1, instance:com.test.basic.Annotaitions@42d80b78]" name="run1" duration-ms="4" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run1 -->
+        <test-method status="PASS" signature="run2()[pri:2, instance:com.test.basic.Annotaitions@42d80b78]" name="run2" duration-ms="1" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.basic.Annotaitions@42d80b78]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.basic.Annotaitions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+  <suite name="Suite" duration-ms="48" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
     <groups>
       <group name="smoke">
-        <method signature="Annotaitions.run1()[pri:1, instance:com.test.basic.Annotaitions@42d80b78]" name="run1" class="com.test.basic.Annotaitions"/>
-        <method signature="Annotaitions.run2()[pri:2, instance:com.test.basic.Annotaitions@42d80b78]" name="run2" class="com.test.basic.Annotaitions"/>
+        <method signature="Annotaitions.run1()[pri:1, instance:com.test.basic.Annotaitions@1bce4f0a]" name="run1" class="com.test.basic.Annotaitions"/>
+        <method signature="Annotaitions.run2()[pri:2, instance:com.test.basic.Annotaitions@1bce4f0a]" name="run2" class="com.test.basic.Annotaitions"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="40" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+    <test name="Test" duration-ms="48" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
       <class name="com.test.basic.Annotaitions">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@42d80b78]" name="setUp" is-config="true" duration-ms="16" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="setUp" is-config="true" duration-ms="5" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,117 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="run1()[pri:1, instance:com.test.basic.Annotaitions@42d80b78]" name="run1" duration-ms="4" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+        <test-method status="PASS" signature="runData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="runData" duration-ms="4" started-at="2019-09-17T21:47:28Z" data-provider="dataProvider" finished-at="2019-09-17T21:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[helo2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="setUp" is-config="true" duration-ms="1" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="runData" duration-ms="0" started-at="2019-09-17T21:47:28Z" data-provider="dataProvider" finished-at="2019-09-17T21:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[helo4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="run1()[pri:1, instance:com.test.basic.Annotaitions@1bce4f0a]" name="run1" duration-ms="2" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run1 -->
-        <test-method status="PASS" signature="run2()[pri:2, instance:com.test.basic.Annotaitions@42d80b78]" name="run2" duration-ms="1" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="run2()[pri:2, instance:com.test.basic.Annotaitions@1bce4f0a]" name="run2" duration-ms="1" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.basic.Annotaitions@42d80b78]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-17T21:15:21Z" finished-at="2019-09-17T21:15:21Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.basic.Annotaitions@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-09-17T21:47:28Z" finished-at="2019-09-17T21:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
